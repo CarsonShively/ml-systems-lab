@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-systems-lab"
+version = "0.1.0"
+requires-python = ">=3.11, <3.14"
+
+dependencies = [
+    "dagster>=1.12,<1.13",
+    "streamlit>=1.54,<1.56",
+    "fastapi>=0.116,<0.117",
+    "uvicorn>=0.42,<0.43",
+    "requests>=2.32,<2.33",
+    "python-multipart>=0.0.20,<0.0.21"
+]
